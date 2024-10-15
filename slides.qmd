@@ -318,8 +318,6 @@ here is the distribution of different types of attacks by the place that policym
 
 ## ![](images/classifications_attack_time1.png){height="750"}
 
-## ![](images/classifications_policy_time1.png){height="750"}
-
 ## 
 
 ## Summary
@@ -547,6 +545,7 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 ::: nonincremental
 1.  Is the Information Environment More Divisive?
     -   Maybe, but past approaches fall short.
+    -   There is a disproportionate amount of attention given to this content
 2.  Why Negativity?
     -   Politicians & media crave attention (perhaps more than ever).
     -   New tools help track attention.
