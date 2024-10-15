@@ -333,14 +333,19 @@
 
 <section id="title-slide" data-notes="take questions, hold ones that tell me i’m totally wrong until the end" class="quarto-title-block center">
   <h1 class="title">The Rise and Demand for Divisive Content</h1>
-  <p class="subtitle">Slides here: https://ylelkes.github.io/divisiveness/slides.html</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
 Yphtach Lelkes 
 </div>
+<div class="quarto-title-author-email">
+<a href="mailto:Slides here: https://ylelkes.github.io/divisiveness/slides.html">Slides here: https://ylelkes.github.io/divisiveness/slides.html</a>
 </div>
+        <p class="quarto-title-affiliation">
+            University of Pennsylvania
+          </p>
+    </div>
 </div>
 
   <p class="date">2024-10-14</p>
@@ -522,6 +527,7 @@ Yphtach Lelkes
 </ol>
 <aside class="notes">
 <p>today i want to talk about a few things that i think are missing from the conversation about the information environment. first, i want to talk about the evidence that the information environment is getting nastier. although there is quite a bit of evidence that soething haas changed, i’m not totally sure what that this. second, i want to talk about why we see divisive information even if we claim to hate it. i think that there are a few reasons for this, but i think that the most important one is that policymakers, media outlets and information consumers are all responding to new features of the information environment that makes this type of information particularly compelling.</p>
+<p>increasinglyt impersonal world where we interact with lots of people we don’t know and we are trying to signal that we are trustworth</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1262,7 +1268,19 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <h2>Sentiment/ML approaches often give unreliable results</h2>
 <div class="fragment">
 <p><a href="images/Sentiment_Analysis_Methods_Performance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="images/Sentiment_Analysis_Methods_Performance.png"></a></p>
-<p>::: notes to show you that i’m not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results :::</p>
+<aside class="notes">
+<p>to show you that i’m not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
 <section id="keywords-may-be-measuring-changes-in-coverage-not-rhetoric" class="slide level2">
@@ -1481,7 +1499,6 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 </section>
 <section id="section-7" class="slide level2">
 <h2><img data-src="images/classifications_attack_time1.png" height="750"></h2>
-<p><a href="images/classificationspolicy_time_titl1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/classificationspolicy_time_titl1.png" height="750"></a></p>
 </section>
 <section id="section-8" class="slide level2">
 <h2><img data-src="images/classifications_policy_time1.png" height="750"></h2>
@@ -1518,8 +1535,8 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <li class="fragment"><p>Social media content from 19 prominent media outlets’ accounts</p></li>
 <li class="fragment"><p>Include online (Politico), print (New York Times) outlets; national &amp; regional (Philadelphia Inquirer); varying political slants (Breitbart, OANN, Fox News, Huffington Post)</p></li>
 <li class="fragment"><p>6.2 million tweets from Twitter, 2007-2021</p></li>
-<li class="fragment"><p>Hand-code samples (N=15k); use BERT (language model) to extend beyond human capacity</p></li>
 <li class="fragment"><p>553,078 URLS from Facebook Social Science One</p></li>
+<li class="fragment"><p>Hand-code samples (N=15k); use BERT (language model) to extend beyond human capacity</p></li>
 </ul>
 </section>
 <section id="annotation" class="slide level2">
@@ -1560,7 +1577,10 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p>##<img data-src="images/f1a.png"></p>
+</section>
+<section id="section-11" class="slide level2">
+<h2></h2>
+<p><a href="images/f1a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/f1a.png"></a></p>
 <aside class="notes">
 <p>here is the percent of tweets that were classified as having a racial group and you see a fairly big uptick from less than 1 percent to over 2 percent by the end of our data collection. the grey is from the bert classifier, the dotted line is from the handcoded data. we also marked what we thought were the major events that were specifically about race at that time, and you see that there is often a bump at that time, but not always.</p>
 <style type="text/css">
@@ -1575,7 +1595,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-11" class="slide level2">
+<section id="section-12" class="slide level2">
 <h2><img data-src="images/f1c.png"></h2>
 <aside class="notes">
 <p>this is the percent of tweets that were classified as having a political identity and you see a similar pattern. political identies have clearly become far more salient in the press over the past 15 years of going from roughly 2.5 percent to about 5 percent of all tweets entionings a political group</p>
@@ -1591,7 +1611,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-12" class="slide level2">
+<section id="section-13" class="slide level2">
 <h2><img data-src="images/f1d.png"></h2>
 <aside class="notes">
 <p>this is the percent of tweets that were classified as having gender and again you see a gender has become far more salient and doesn’t always seem to follow a clear event-driven pattern</p>
@@ -1639,14 +1659,9 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <section id="changing-incentives-for-content-makers" class="slide level2">
 <h2>Changing incentives for content makers</h2>
 <ol type="1">
-<li class="fragment">The job of the legislator is increasingly bad (Hall, 2019), the decline of the incumbency advantage and the rise permanent campaign means (Druckman) “newer members of Congress show up without much concern about policy and instead focus on their communications staff and getting attention on social media and cable news.”</li>
-</ol>
-</section>
-<section id="changing-incentives-for-content-makers-1" class="slide level2">
-<h2>Changing incentives for content makers</h2>
-<ol start="2" type="1">
-<li class="fragment">Media producers are facing far more competition and there is less revenue to go around</li>
-<li class="fragment">New tools allow for more fine-grained feedback, e.g., minute-by-minute ratings, A/B testing of content, likes, retweets, comments, etc. started emerging in the early 2000s.</li>
+<li class="fragment"><p>The job of the legislator is increasingly bad (Hall, 2019), the decline of the incumbency advantage and the rise permanent campaign means (Druckman) “newer members of Congress show up without much concern about policy and instead focus on their communications staff and getting attention on social media and cable news.”</p></li>
+<li class="fragment"><p>Media producers are facing far more competition and there is less revenue to go around</p></li>
+<li class="fragment"><p>New tools allow for more fine-grained feedback, e.g., minute-by-minute ratings, A/B testing of content, likes, retweets, comments, etc. started emerging in the early 2000s.</p></li>
 </ol>
 <aside class="notes">
 <ol type="1">
@@ -1665,22 +1680,37 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-13" class="slide level2">
+<section id="section-14" class="slide level2">
 <h2></h2>
 <p><a href="https://www.niemanlab.org/images/NPRDashboard_TOP.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="https://www.niemanlab.org/images/NPRDashboard_TOP.jpeg"></a></p>
 </section>
-<section id="section-14" class="slide level2">
+<section id="section-15" class="slide level2">
 <h2></h2>
-<p><code>Why is it that Ted Cruz got a higher engagement rate this week ... I would spend ... about an hour to two hours every night ... just looking at how different posts and different platforms did and trying to test things after that. (Hector Sigala, Bernie Sander's 2016 social media directory, quoted in Kreiss et al, 2017)</code></p>
+<p><code>Why is it that Ted Cruz got a higher engagement rate this week ... I would spend ... about an hour to two hours every night ... just looking at how different posts and different platforms did and trying to test things after that. (Hector Sigala, Bernie Sander's 2016 social media director, quoted in Kreiss et al, 2017)</code></p>
 </section>
 <section id="media-consumers-are-also-looking-for-ways-to-cut-through-the-noise" class="slide level2">
 <h2>Media consumers are also looking for ways to cut through the noise:</h2>
 <ol type="1">
-<li class="fragment">As we face increasing volumes of data, we (probably) increasingly rely on heuristics.</li>
-<li class="fragment">Divisive content is a great heuristic for information consumption:</li>
-<li class="fragment">Is this content relevant and important to me?</li>
+<li class="fragment">As we face increasing volumes of data, we increasingly rely on heuristics.</li>
+<li class="fragment">Divisive content is a great heuristic for information consumption:
+<ol type="1">
+<li class="fragment">Is this content relevant and important to me? (Feinberg and Willer, 2012)</li>
 <li class="fragment">Is this content coming from someone I trust?</li>
+</ol></li>
 </ol>
+<aside class="notes">
+<p>how do i know whether to stop and read this headline? is it worth my time? is it going to convey useful information?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="everyone-is-an-information-producer-now" class="slide level2">
 <h2>Everyone is an information producer now:</h2>
@@ -1712,7 +1742,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-15" class="slide level2">
+<section id="section-16" class="slide level2">
 <h2></h2>
 </section>
 <section>
@@ -1759,7 +1789,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <h2>TV and Rhetoric Ranking</h2>
 <p><a href="images/mediamentionsb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/mediamentionsb.png"></a></p>
 </section>
-<section id="section-16" class="slide level2">
+<section id="section-17" class="slide level2">
 <h2></h2>
 </section></section>
 <section>
@@ -1800,14 +1830,14 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <li class="fragment">~3200 headline packages (18k total headlines) that included at least one identity category</li>
 </ol>
 </section>
-<section id="section-17" class="slide level2" style="font-size: 50%;">
+<section id="section-18" class="slide level2" style="font-size: 50%;">
 <h2></h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 29%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1869,7 +1899,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 </tbody>
 </table>
 </section>
-<section id="section-18" class="slide level2">
+<section id="section-19" class="slide level2">
 <h2><img data-src="images/clipboard-1189303682.png" style="height:75.0%"></h2>
 </section>
 <section id="upworthy-results" class="slide level2">
@@ -1953,7 +1983,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-19" class="slide level2">
+<section id="section-20" class="slide level2">
 <h2></h2>
 <iframe width="100%" height="100%" src="https://www.kqed.org/news/11786043/instagram-will-hide-likes-to-depressurize-the-platform-for-young-people">
 </iframe>
@@ -1982,8 +2012,9 @@ Americans need to support regulation of prescription drugs and reduce the cost o
 <li>Politicians &amp; media crave attention (perhaps more than ever).</li>
 <li>New tools help track attention.</li>
 <li>We’re overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness</li>
-<li>Divisive content cuts through the noise. Slides: https://ylelkes.github.io/divisiveness/slides.html</li>
+<li>Divisive content cuts through the noise.</li>
 </ul></li>
+<li>Slides: https://ylelkes.github.io/divisiveness/slides.html</li>
 </ol>
 </div>
 <div class="quarto-auto-generated-content">
@@ -2393,7 +2424,7 @@ Americans need to support regulation of prescription drugs and reduce the cost o
     });
     </script>
     <script>videojs(video_shortcode_videojs_video1);</script>
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

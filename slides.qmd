@@ -1,7 +1,9 @@
 ---
 title: "The Rise and Demand for Divisive Content"
-subtitle: "Slides here: https://ylelkes.github.io/divisiveness/slides.html"
-author: "Yphtach Lelkes"
+author:
+  - name: "Yphtach Lelkes"
+    affiliation: "University of Pennsylvania"
+    email: "Slides here: https://ylelkes.github.io/divisiveness/slides.html"  # Optional
 date: "10-14-2024"
 title-slide-attributes: 
   data-notes: take questions, hold ones that tell me i'm totally wrong until the end
@@ -10,6 +12,7 @@ format:
       multiplex: true
       theme: [simple]
       incremental: true
+      auto-stretch: true
 lightbox: true
 ---
 
@@ -103,6 +106,8 @@ and this type of rhetoric seems to have all sorts of bad consequences for people
 
 ::: notes
 today i want to talk about a few things that i think are missing from the conversation about the information environment. first, i want to talk about the evidence that the information environment is getting nastier. although there is quite a bit of evidence that soething haas changed, i'm not totally sure what that this. second, i want to talk about why we see divisive information even if we claim to hate it. i think that there are a few reasons for this, but i think that the most important one is that policymakers, media outlets and information consumers are all responding to new features of the information environment that makes this type of information particularly compelling.
+
+increasinglyt impersonal world where we interact with lots of people we don't know and we are trying to signal that we are trustworth
 :::
 
 ## Overview of the talk
@@ -139,7 +144,11 @@ my first point is the approaches that have document increased divisiveness rely 
 
 ![](images/Sentiment_Analysis_Methods_Performance.png)
 
-::: notes to show you that i'm not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results :::
+::: notes
+
+to show you that i'm not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results
+
+:::
 
 ## Keywords may be measuring changes in coverage, not rhetoric
 
@@ -337,9 +346,9 @@ the main thing i'm hoping to do here is showcase that there is all this data tha
 
 -   6.2 million tweets from Twitter, 2007-2021
 
--   Hand-code samples (N=15k); use BERT (language model) to extend beyond human capacity
-
 -   553,078 URLS from Facebook Social Science One
+
+-   Hand-code samples (N=15k); use BERT (language model) to extend beyond human capacity
 
 ## Annotation:
 
@@ -358,7 +367,9 @@ we tried different classifiers, for each category. either based on data that was
 this is just the percentage of tweets in our data that were classified as having any identity present. and you see that the number has about doubled since 2007
 :::
 
-\##![](images/f1a.png)
+## 
+
+![](images/f1a.png)
 
 ::: notes
 here is the percent of tweets that were classified as having a racial group and you see a fairly big uptick from less than 1 percent to over 2 percent by the end of our data collection. the grey is from the bert classifier, the dotted line is from the handcoded data. we also marked what we thought were the major events that were specifically about race at that time, and you see that there is often a bump at that time, but not always.
@@ -400,9 +411,8 @@ this is the percent of tweets that were classified as having gender and again yo
 
 1.  The job of the legislator is increasingly bad (Hall, 2019), the decline of the incumbency advantage and the rise permanent campaign means (Druckman) "newer members of Congress show up without much concern about policy and instead focus on their communications staff and getting attention on social media and cable news."
 
-## Changing incentives for content makers
-
 2.  Media producers are facing far more competition and there is less revenue to go around
+
 3.  New tools allow for more fine-grained feedback, e.g., minute-by-minute ratings, A/B testing of content, likes, retweets, comments, etc. started emerging in the early 2000s.
 
 ::: notes
@@ -416,14 +426,18 @@ this is the percent of tweets that were classified as having gender and again yo
 
 ## 
 
-`Why is it that Ted Cruz got a higher engagement rate this week ... I would spend ... about an hour to two hours every night ... just looking at how different posts and different platforms did and trying to test things after that. (Hector Sigala, Bernie Sander's 2016 social media directory, quoted in Kreiss et al, 2017)`
+`Why is it that Ted Cruz got a higher engagement rate this week ... I would spend ... about an hour to two hours every night ... just looking at how different posts and different platforms did and trying to test things after that. (Hector Sigala, Bernie Sander's 2016 social media director, quoted in Kreiss et al, 2017)`
 
 ## Media consumers are also looking for ways to cut through the noise:
 
-1.  As we face increasing volumes of data, we (probably) increasingly rely on heuristics.
+1.  As we face increasing volumes of data, we increasingly rely on heuristics.
 2.  Divisive content is a great heuristic for information consumption:
-3.  Is this content relevant and important to me?
-4.  Is this content coming from someone I trust?
+    1.  Is this content relevant and important to me? (Feinberg and Willer, 2012)
+    2.  Is this content coming from someone I trust?
+
+::: notes
+how do i know whether to stop and read this headline? is it worth my time? is it going to convey useful information?
+:::
 
 ## Everyone is an information producer now:
 
@@ -591,5 +605,6 @@ research is focused on these informaitonal interventions on depolarization
     -   Politicians & media crave attention (perhaps more than ever).
     -   New tools help track attention.
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-    -   Divisive content cuts through the noise. Slides: https://ylelkes.github.io/divisiveness/slides.html
+    -   Divisive content cuts through the noise.
+3.  Slides: https://ylelkes.github.io/divisiveness/slides.html
 :::
