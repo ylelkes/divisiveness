@@ -117,7 +117,7 @@ today i want to talk about a few things that i think are missing from the conver
     -   Divisive content cuts through the noise.
 :::
 
-## Sentiment/ML approaches often give idiosyncratic results
+## Sentiment/ML approaches often give unreliable results
 
 {{< include images/sentiment_null.html >}}
 
@@ -137,7 +137,9 @@ my first point is the approaches that have document increased divisiveness rely 
 
 . . .
 
-![](images/Sentiment_Analysis_Methods_Performance.png) ::: notes to show you that i'm not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results :::
+![](images/Sentiment_Analysis_Methods_Performance.png)
+
+::: notes to show you that i'm not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results :::
 
 ## Keywords may be measuring changes in coverage, not rhetoric
 
@@ -145,20 +147,6 @@ my first point is the approaches that have document increased divisiveness rely 
 
 ::: notes
 Keywords do not necessarily capture changes in rhetoric but changes in how outlets are covering politics
-:::
-
-## Negativity and toxicity are not well-defined
-
-`Throughout this report we use the term “toxicity,” defined as rude, disrespectful, or unreasonable language that is likely to make someone leave a discussion ... toxicity refers to a broad category of language that is subject to individual interpretation (Jigsaw)`
-
-::: notes
-```         
-1.  Ambiguity in Language: Human language is inherently ambiguous. Words can have different meanings depending on context, and sarcasm, irony, or cultural nuances can drastically change the intended sentiment. For example, the phrase “That’s just great” could be positive or negative depending on context, which makes sentiment analysis difficult to interpret consistently.
-2.  Subjectivity of Sentiment: Different individuals can perceive the same content differently. What one person views as neutral, another might interpret as positive or negative based on their personal experiences or biases. Sentiment is not an objective measure, so capturing it in a consistent way across a diverse population is inherently challenging.
-3.  Binary or Oversimplified Labels: Sentiment analysis often reduces emotions to simplistic categories like “positive,” “negative,” or “neutral.” However, human emotions are complex and multidimensional. A statement may contain a mix of emotions, such as frustration and hope, that cannot easily be captured by such binary classifications.
-4.  Context Dependence: The same phrase can evoke different sentiments depending on the broader context in which it is used. For instance, “The team performed well” may be positive in a work setting but irrelevant or sarcastic in a sports context. Sentiment analysis tools often struggle with this level of nuance because they may not take into account all aspects of context.
-5.  Domain-Specific Variations: Sentiment can vary greatly depending on the domain in which the text is analyzed. For instance, in finance, the phrase “market correction” might have a neutral or even positive connotation, while in a different context, it could imply something negative. Sentiment analysis tools may not be able to adapt well across different fields without significant customization.
-```
 :::
 
 ## LLMs are a game changer for content analysis:
@@ -321,8 +309,6 @@ here is the distribution of different types of attacks by the place that policym
 
 ## ![](images/classifications_attack_time1.png){height="750"}
 
-![](images/classificationspolicy_time_titl1.png){height="750"}
-
 ## ![](images/classifications_policy_time1.png){height="750"}
 
 ## 
@@ -372,7 +358,7 @@ we tried different classifiers, for each category. either based on data that was
 this is just the percentage of tweets in our data that were classified as having any identity present. and you see that the number has about doubled since 2007
 :::
 
-##![](images/f1a.png)
+\##![](images/f1a.png)
 
 ::: notes
 here is the percent of tweets that were classified as having a racial group and you see a fairly big uptick from less than 1 percent to over 2 percent by the end of our data collection. the grey is from the bert classifier, the dotted line is from the handcoded data. we also marked what we thought were the major events that were specifically about race at that time, and you see that there is often a bump at that time, but not always.
@@ -524,7 +510,7 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 ##  {style="font-size: 50%;"}
 
 |   | RACE | RELIGION | GENDER |
-|----------------------|-----------------|-----------------|-----------------|
+|---------------------|-----------------|-----------------|-----------------|
 | **Headline group: 51436071220cb8000200077d** |  |  |  |
 | Why Are 193 Countries Joining A 'Feminist Tsunami' On Valentine's Day? | 0 | 0 | 1 |
 | What 1 Billion Women Really Want For Valentine's Day This Year | 0 | 0 | 1 |
@@ -605,6 +591,5 @@ research is focused on these informaitonal interventions on depolarization
     -   Politicians & media crave attention (perhaps more than ever).
     -   New tools help track attention.
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-    -   Divisive content cuts through the noise.
-Slides: https://ylelkes.github.io/divisiveness/slides.html
+    -   Divisive content cuts through the noise. Slides: https://ylelkes.github.io/divisiveness/slides.html
 :::
