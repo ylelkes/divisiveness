@@ -1,0 +1,34 @@
+
+/* Reduce font size for headers */
+.reveal h1 {
+  font-size: 1em; /* Adjust this value to make it smaller */
+}
+
+.reveal h2 {
+  font-size: 1.2em; /* Adjust as needed */
+}
+
+.reveal h3 {
+  font-size: 1em; /* Adjust as needed */
+}
+
+/* Optional: You can add more heading levels if necessary */
+.reveal h4 {
+  font-size: 1.5em;
+}
+
+.reveal h5 {
+  font-size: 1.25em;
+}
+
+/* Reduce font size for regular body text */
+.reveal p {
+  font-size: 1em; /* Decrease this value to make text smaller */
+  line-height: 1.2; /* Optional: Adjust line spacing to improve readability */
+}
+
+/* Reduce font size for list items */
+.reveal ul, .reveal ol {
+  font-size: .75em; /* Same as body text */
+  line-height: 1.4;
+}

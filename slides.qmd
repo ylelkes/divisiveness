@@ -1,15 +1,22 @@
 ---
-title: "Presentation"
+title: "The Rise and Demand for Divisive Content"
+subtitle: "Slides here: https://ylelkes.github.io/divisiveness/slides.html"
+author: "Yphtach Lelkes"
+date: "10-14-2024"
+title-slide-attributes: 
+  data-notes: take questions, hold ones that tell me i'm totally wrong until the end
 format:
   revealjs:
       multiplex: true
+      theme: [simple]
+      incremental: true
 lightbox: true
 ---
 
 {{< video https://int.nyt.com/data/videotape/finished/2022/04/tucker/theyyou_v22-1254w.mp4 >}}
 
 ::: notes
-Forgive me for opening with a bit of an abrasive example, but i am hard pressed to find someone who more perfectly captures what i mean by divisive content than tucker e43sw2f. he is someone who's modus operandi is to capture the attention of his audience by pitting them against some other group.
+Forgive me for opening with a bit of an abrasive example, but i am hard pressed to find someone who more perfectly captures what i mean by divisive content than tucker carlson. \[show video\] he is someone who's modus operandi is to capture the attention of his audience by pitting them against some other group.
 :::
 
 ## 
@@ -19,7 +26,7 @@ Forgive me for opening with a bit of an abrasive example, but i am hard pressed 
 ![](images/Screenshot%202024-04-12%20at%205.22.51%20PM.png)
 :::
 
-:::: {.column width="50%"}
+:::: {.column .fragment width="50%"}
 <div>
 
 `He is going to double down on the white nationalism because the minute-by-minutes show that the audience eats it up," said another former Fox employee, who worked frequently with Mr. Carlson.`
@@ -29,29 +36,25 @@ Forgive me for opening with a bit of an abrasive example, but i am hard pressed 
 ::::::
 
 ::: notes
-roughly 2 years ago, the nytimes ran this expose about the evolution –or devolution– of tucker carlson. most of the article was about how he has become a far right demagogue, heavily focused on instilling fear in his viewers by talking about threats posed by black americans, democrats, immigrants, feminists and, generally pushing this group-based us versus them. here's one example from the piece.
+roughly 2 years ago, the nytimes ran this expose about the evolution –or devolution– of tucker carlson. most of the article was about how he has become a far right demagogue, heavily focused on instilling fear in his viewers by talking about threats posed by black americans, democrats, immigrants, feminists and, generally pushing this group-based us versus them mentality.
 
-that tucker carlson engages in identity baiting is probably not that surprising to anyone that has been somewhat attune to politics over the past 10 years. what i found most interesting, however, was that his coverage seemed less related to his own ideology than it was at maximizing ratings. read quote. The article discusses his use of newly available minute-by-minute ratings to track the relationship and titrating his racism accordingly. According to this story, Tucker was responding to consumer to demand for division.
+that tucker carlson engages in identity baiting is probably not that surprising to anyone that has been somewhat attune to politics over the past 10-20 years. what i found most interesting, however, was that his coverage seemed less related to his own ideology than it was at maximizing ratings. \[click\] The article discusses his use of newly available minute-by-minute ratings to titrate his racism to maximize ratings.
 
-This story captured a thing things for me that are key to what i want to talk about today:
+This story captured a few component of what i want to talk about today
 
-1\) the information environment feels pretty nasty, lots of research suggests that it has gotten nastier 2) it's not clear to me that (1) it has gotten more nasty and (2) the nastiness reflects the universe of content out there 2) But nastiness receives outsized attention
+1\) the information environment feels pretty nasty, and we, the consumers, are at least partly to blame
 :::
 
-## 
-
-![Rozado et al (2022)](images/clipboard-3247471226.png)
+## ![Rozado et al (2022)](images/clipboard-3247471226.png)
 
 ::: notes
-there is now a fair deal of evidence that things are getting nastier. this is a figure from a paper by Rozado et al (2022) that shows the sentiment of headlines in lots of different papers over time. you see a 314% increase in negativity between 2000 and 2019. it's not totally clear to me if this is a meaningful drop (how much more negative is -.1 than .1) but it is a large drop-nonetheless.
+there is now a fair deal of evidence that things are getting nastier. this is a figure from a paper by Rozado et al (2022) that shows the sentiment of headlines in lots of different newspapers over time. you see a 314% decrase in positivty between 2000 and 2019. it's not totally clear to me if this is a meaningful drop (how much more negative is -.1 than .1) but it is a large drop-nonetheless.
 :::
 
-## 
-
-![Frimer et al, 2022](images/Screenshot%202024-10-07%20at%205.04.24%20PM.png){.lightbox}
+## ![Frimer et al, 2022](images/Screenshot%202024-10-07%20at%205.04.24%20PM.png){.lightbox}
 
 ::: notes
-here is another figure from a recent paper from frimer et al which uses a machine learning tool, PerspectiveAPI from google. to measure the toxicity of tweets over and you see this uptick in incivility among politicians. while the average tweet from citizens flluctuates there has been an increase, although i assume that the number has dropped again.
+here is another figure from a recent paper from frimer et al which uses a machine learning tool, PerspectiveAPI from google. to measure the toxicity of tweets over time and you see this uptick in what they call incivility among politicians. i assume that if you did this during the biden presidency you see that the numbers have dropped again
 :::
 
 ## 
@@ -59,23 +62,21 @@ here is another figure from a recent paper from frimer et al which uses a machin
 ![(Zeitzoff, 2023) key words associated with nasty politics: “united states AND congress AND (‘violent language, violent rhetoric, political insult, political smear, political duel, political brawl, OR political slander).](images/clipboard-2598538575.png)
 
 ::: notes
-finally, this is a figure from a paper by Zeitzoff (2023) that shows the frequency of nasty politics in the New York Times over time. you see this peak around the civil war and then another peak around the 2016 election. nasty politics is defined as the presence of key words like "(‘violent language, violent rhetoric, political insult, political smear, political duel, political brawl, OR political slander)" all these figures seem to be pointing to the same conclusion: the information environment is getting nastier.
+finally, this is a figure from a new very good book by thomas Zeitzoff (2023) that shows the frequency of what he calls nasty politics in the New York Times over time. you see this peak around the civil war and then another peak around the 2016 election.
+
+nasty politics is defined as the presence of key words like "(‘violent language, violent rhetoric, political insult, political smear, political duel, political brawl, OR political slander)" all these figures seem to be pointing to the same conclusion: the information environment is getting nastier.
 :::
 
-## 
-
-![](images/clipboard-378976704.png){.lightbox fig-align="center" width="400"}
+## ![](https://www.pewresearch.org/wp-content/uploads/sites/20/2023/09/PP_2023.09.19_views-of-politics_00-02.png)
 
 ::: notes
 Americans are clearly not happy with the state of politics. Pew ran a survey last year where they asked respondents an open-ended question to describe politics today. This is a list of the most common words sized by frequency. Not surprisingly, most of them are bad. whether or not we would see a different wordcloud if we asked this question 10 years ago is an open question, but even the cross-section gives us some insight into how people feel about the state of politics.
 :::
 
-## 
-
-![See also Costa (2021), Zeitzoff (2023)](images/clipboard-1849326142.png)
+## ![See also Costa (2021), Zeitzoff (2023)](images/clipboard-1849326142.png)
 
 ::: notes
-and people clearly don't like it. this is another graph from that pew survey which asked people what kind of information they would like to see. americans say, overwhelmingly that they would like more policy-oriented content and less content that is focused on the disgreements between republicans and democrats. this raises the question, why, in a media system that is clearly market-driven, are we bombarded with divisive content that we don't want to see. there have now been a few papers out by mia costa and thomas zeitzoff showing that in an experimental setting, politicians who adopt divisive talk are punished
+and people clearly don't like it. this is another graph from that pew survey which asked people what kind of information they would like to see. americans say, overwhelmingly that they would like more policy-oriented content and less content that is focused on the disgreements between republicans and democrats. this raises the question, why, in a media system that is clearly market-driven, are we bombarded with divisive content that we don't want to see.
 :::
 
 ## 
@@ -86,59 +87,65 @@ and people clearly don't like it. this is another graph from that pew survey whi
 ![](images/clipboard-2752303224.png) ![](images/clipboard-2820765060.png)
 :::
 
+::: notes
+and this type of rhetoric seems to have all sorts of bad consequences for peoples support for democracy, for their intergroup attitudes, and for the future of stability of democracy in america
+:::
+
 ## Overview of the talk
 
 1.  Is the Information Environment More Divisive?
-
     -   Maybe, but past approaches fall short.
-
 2.  Why Negativity?
-
     -   Politicians & media crave attention (perhaps more than ever).
-
     -   New tools help track attention.
-
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-
     -   Divisive content cuts through the noise.
 
 ::: notes
-today i want to talk about a few things that i think are missing from the conversation about the information environment. first, i want to talk about the evidence that the information environment is getting nastier. i think that there is a lot of evidence that it is, but i think that the evidence is not as strong as it could be. second, i want to talk about why we see divisive information even if we claim to hate it. i think that there are a few reasons for this, but i think that the most important one is that divisive content is more likely to be seen. finally, i want to talk about what we can do about it. i think that there are a few things that we can do to make the information environment less divisive, but i think that the most important thing is to change the incentives that drive the production of divisive content.
+today i want to talk about a few things that i think are missing from the conversation about the information environment. first, i want to talk about the evidence that the information environment is getting nastier. although there is quite a bit of evidence that soething haas changed, i'm not totally sure what that this. second, i want to talk about why we see divisive information even if we claim to hate it. i think that there are a few reasons for this, but i think that the most important one is that policymakers, media outlets and information consumers are all responding to new features of the information environment that makes this type of information particularly compelling.
 :::
 
 ## Overview of the talk
 
 ::: nonincremental
 1.  **Is the Information Environment More Divisive?**
-
     -   **Maybe, but past approaches fall short.**
-
 2.  Why Negativity?
-
     -   Politicians & media crave attention (perhaps more than ever).
-
     -   New tools help track attention.
-
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-
     -   Divisive content cuts through the noise.
 :::
 
 ## Sentiment/ML approaches often give idiosyncratic results
 
+{{< include images/sentiment_null.html >}}
+
+::: notes
+my first point is the approaches that have document increased divisiveness rely on methods that don't always give very sensible results. here are four sentences that in my mind are neutral. the first two sentence are about support regulation of firearms. the only difference between them is that the first one includes the phrase black americans while the second sentence only includes americans. the 3rd and 4th sentences are similar but about the regulation of prescription drugs. i then fed them to two prominent ways that the literature has documented toxicity and negativity. the first is a machine learning tool called PerspectiveAPI that was used in that frimer paper the second is a sentiment analysis tool called Vader. the scores that are outputed for toxicity go from 0 to 1 and sentiment go from -1 to 1
+:::
+
+## Sentiment/ML approaches often give unreliable results
+
 {{< include images/sentimenttable.html >}}
+
+. . .
 
 -see critiques in: van Atteveldt et al, 2021, Hede et al 2021
 
 ## Sentiment/ML approaches often give unreliable results
 
-![](images/Sentiment_Analysis_Methods_Performance.png)
+. . .
+
+![](images/Sentiment_Analysis_Methods_Performance.png) ::: notes to show you that i'm not just cherry picking sentences this was a recent paper from van atteveldt et al that compared various approached to sentiment analysis including a dictionary approach like vader and various machine learning approaches and final a human coding approach. they tracked the accuracy, or amount of agreement there was between the data the authors handcoded and these other methods. the human coded metrics were the only ones that gave reliable results :::
 
 ## Keywords may be measuring changes in coverage, not rhetoric
 
 ![(Zeitzoff, 2023) key words associated with nasty politics: “united states AND congress AND (‘violent language, violent rhetoric, political insult, political smear, political duel, political brawl, OR political slander).](images/clipboard-2598538575.png)
 
-::: notes Keywords do not necessarily capture changes in rhetoric but changes in how outlets are covering politics :::
+::: notes
+Keywords do not necessarily capture changes in rhetoric but changes in how outlets are covering politics
+:::
 
 ## Negativity and toxicity are not well-defined
 
@@ -156,32 +163,40 @@ today i want to talk about a few things that i think are missing from the conver
 
 ## LLMs are a game changer for content analysis:
 
-:::::::: columns
-::::: {.column width="50%"}
-::: {.fragment data-fragment-index="1"}
--   LLMs can better account for context, subjectivity, and ambiguity
+1.  We can now do the type content analyses that once required a team of RAs (and at a far greater scale and a fraction of the price)
+2.  At the same (or better) level of accuracy
+3.  And even ask the LLM to explain its decision (which is often more reasonable than our own)
+
+::: notes
+LLMs are a game changer for content analysis. We once had to assemble teams of undergraduates or rely on turkers to code content, and, of course, these people would get fatigued or biased, but now we can reach the same or sometimes better level of accuracy. and we can do it at a far greater scale. and we can even ask the LLM to explain its decision, which is often more reasonable than our own. when we first started one of the projects i'm going to be talking about today, we were working with amazon data science team with the goal of building a tool that could classify text in a way that was as good as a human coder. chatgpt came out at about that time. we would go back and forth with amazon and their team of expert annotators. by the end of the exercise they told us that it would be a waste of money to continue to pay them to annotate the data because the LLM was doing a better job.
 :::
 
-::: {.fragment data-fragment-index="2"}
--   They let us go beyond coarse concepts like "negativity" and "toxicity"
+## LLMs are a game changer for content analysis:
+
+:::::: columns
+::: {.column width="50%"}
+-   Better account for context, subjectivity, and ambiguity
+-   Let us go beyond coarse concepts like "negativity" and "toxicity"
 :::
-:::::
 
 :::: {.column width="50%"}
-::: {.fragment data-fragment-index="1"}
-"Oh, great, another tax cut for the rich!" Vader gives it a positive score (.53)\
-![](images/clipboard-2895798699.png)
+::: nonincremental
+"Oh, great, another tax cut for the rich!" Vader gives it a positive score (.53) ![](images/clipboard-2895798699.png){width="100%"}
 :::
 ::::
-::::::::
+::::::
+
+::: notes
+llms do a bunch of stuff that we couldn't do before. they can better account for context, subjectivity, and ambiguity. for instance, here's a sentence i fed into vader "Oh, great, another tax cut for the rich" and it labeled it as positive. here's the output from chatgpt
+:::
 
 ## Divisive content can be many things (not all of them bad!)
 
-1.  Personal attacks: Attacks question the character, integrity, intelligence, morality or patriotism of a person or a political party.
+1.  Personal attacks: Question the character, integrity, intelligence, morality or patriotism of a person or a political party.
 
 2.  Constructive debate: Objects to policy, legislation and other governmental decisions with negative words, but relies on facts and doesn't use emotional appeals or personal attacks.
 
-3.  Identity-oriented content: Explictly references a group identity based on partisanship, religion, race, gender
+3.  Identity-oriented content: Explictly references a group identity based on partisanship, religion, race, gender (Klein, 2020)
 
 ::: notes
 Hard to see value in personal attacks
@@ -263,12 +278,6 @@ Text explictly references a group identity based on partisanship, religion, race
 :::
 :::::
 
-## LLMs are a game changer for content analysis:
-
-1.  We can now do the type content analyses that once required a team of RAs (and at a far greater scale)
-2.  At the same level of accuracy
-3.  And even ask the LLM to explain its decision (which is often more reasonable than our own)
-
 ## Two projects that apply LLMs to large corpora of text
 
 1.  The Polarization Research Lab Elite Rhetoric Tracker (with Sean Westwood and Matt Wetzel)
@@ -290,23 +299,33 @@ Text explictly references a group identity based on partisanship, religion, race
 
 ![](images/Screenshot%202024-10-08%20at%2011.54.12%20AM.png)
 
+::: notes
+this measure compares various measures of reliability by comparing results from either chatgpt4.5 or trained coders to data we labeled ourselves for two categories and you see that chatgpt's reliability was consistently better than hand codes
+:::
+
 ## [![](images/Screenshot%202024-10-08%20at%203.22.22%20PM.png)](https://americaspoliticalpulse.com/)
 
+::: notes
+we have taken this data and created this website where we release survey data fromm yougov on what we call partisan attitudes weekly as well as a dashboard that lets people look up their legislators
+
+we created this for a couple reasons. one we were hoping to get information out there for journalists, policymakers and voters and it would be used to incentivize policymakers to be less divisive and there are different organizatios now that have started to incorporate this data into their depolarization initiatives.
+:::
+
+## ![](images/classifications.png){height="750"}
+
+::: notes
+here is the distribution of different types of attacks by the place that policymakers used them. there is clearly some sensible variaiton between sources, egg., they talk about accomplishments a ton in newsletters and statements, but not on the floor. what stands out to me is how much they talk about policy in general, either in the form of a critique or in a positive way and how little they make attacks.
+:::
+
+## ![](images/classifications_party.png){height="750"}
+
+## ![](images/classifications_attack_time1.png){height="750"}
+
+![](images/classificationspolicy_time_titl1.png){height="750"}
+
+## ![](images/classifications_policy_time1.png){height="750"}
+
 ## 
-
-![](images/classifications.png)
-
-## 
-
-![](images/classifications_party.png)
-
-## 
-
-![](images/classifications_attack_time1.png)
-
-## 
-
-![](images/classifications_policy_time1.png)
 
 ## Summary
 
@@ -316,12 +335,24 @@ Text explictly references a group identity based on partisanship, religion, race
 
 3.  The prevalence of these types has gone up and down in the short term
 
-## The rise and demand for identity-oriented media coverage (with Dan Hopkins and Sam Wolken)
+::: notes
+politics doesn't seem as divisive as we, at least according to the pew interviews, think it is. if it is omnipresent in our own media feeds it's less because of a objective view of information than a hyperfocus on negativity.
+
+the main thing i'm hoping to do here is showcase that there is all this data that we've collected and that you might feel inspired to do something with it.
+:::
+
+## The rise and demand for identity-oriented media coverage
+
+-   with Dan Hopkins and Sam Wolken
 
 -   Social media content from 19 prominent media outlets' accounts
+
 -   Include online (Politico), print (New York Times) outlets; national & regional (Philadelphia Inquirer); varying political slants (Breitbart, OANN, Fox News, Huffington Post)
+
 -   6.2 million tweets from Twitter, 2007-2021
+
 -   Hand-code samples (N=15k); use BERT (language model) to extend beyond human capacity
+
 -   553,078 URLS from Facebook Social Science One
 
 ## Annotation:
@@ -329,23 +360,35 @@ Text explictly references a group identity based on partisanship, religion, race
 -   Sample categories: RACEETHNIC: 1 if tweet makes explicit reference to a group identity based on race/ethnicity (White people, Black people, Hispanics, indigenous people etc.); 0 otherwise.
 -   POLITICAL: 1 if tweet makes explicit reference to a group de ned by political/partisan identities (e.g., Democrats, Republicans, libertarians); 0 otherwise. Mentions of party (e.g. Mitch McConnell, a Republican")
 
-## Classifier performance ![](images/clipboard-3832264735.png){width="100%"}
+## Classifier performance ![](images/clipboard-3832264735.png){height="90%"}
 
-## 
+::: notes
+we tried different classifiers, for each category. either based on data that was poooled across facebook and twitter or data that was platform specific. we then went with the classifier that gave us the most reliable results.
+:::
 
-![](images/prop_tweets.png)
+## ![](images/prop_tweets.png){height="90%"}
 
-## 
+::: notes
+this is just the percentage of tweets in our data that were classified as having any identity present. and you see that the number has about doubled since 2007
+:::
 
-![](images/f1a.png)
+##![](images/f1a.png)
 
-## 
+::: notes
+here is the percent of tweets that were classified as having a racial group and you see a fairly big uptick from less than 1 percent to over 2 percent by the end of our data collection. the grey is from the bert classifier, the dotted line is from the handcoded data. we also marked what we thought were the major events that were specifically about race at that time, and you see that there is often a bump at that time, but not always.
+:::
 
-![](images/f1c.png)
+## ![](images/f1c.png)
 
-## 
+::: notes
+this is the percent of tweets that were classified as having a political identity and you see a similar pattern. political identies have clearly become far more salient in the press over the past 15 years of going from roughly 2.5 percent to about 5 percent of all tweets entionings a political group
+:::
 
-![](images/f1d.png)
+## ![](images/f1d.png)
+
+::: notes
+this is the percent of tweets that were classified as having gender and again you see a gender has become far more salient and doesn't always seem to follow a clear event-driven pattern
+:::
 
 ## Summary
 
@@ -357,25 +400,22 @@ Text explictly references a group identity based on partisanship, religion, race
 
 ## Overview of the talk
 
+::: nonincremental
 1.  Is the Information Environment More Divisive?
-
     -   Maybe, but past approaches fall short.
+2.  **Why Negativity?**
+    -   Politicians & media crave attention (perhaps more than ever).
+    -   New tools help track attention.
+    -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
+    -   Divisive content cuts through the noise.
+:::
 
-**2. Why Negativity?**
+## Changing incentives for content makers
 
-```         
--   Politicians & media crave attention (perhaps more than ever).
+1.  The job of the legislator is increasingly bad (Hall, 2019), the decline of the incumbency advantage and the rise permanent campaign means (Druckman) "newer members of Congress show up without much concern about policy and instead focus on their communications staff and getting attention on social media and cable news."
 
--   New tools help track attention.
+## Changing incentives for content makers
 
--   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-
--   Divisive content cuts through the noise.
-```
-
-## The incentives for content producers (policymakers and media outlets) are different today
-
-1.  The job of the legislator is increasingly bad (Hall, 2019), the decline of the incumbency advantage and the rise permanent campaign means (Druckman) that "newer members of Congress show up without much concern about policy and instead focus on their communications staff and getting attention on social media and cable news."
 2.  Media producers are facing far more competition and there is less revenue to go around
 3.  New tools allow for more fine-grained feedback, e.g., minute-by-minute ratings, A/B testing of content, likes, retweets, comments, etc. started emerging in the early 2000s.
 
@@ -386,11 +426,9 @@ Text explictly references a group identity based on partisanship, religion, race
 
 ## 
 
-![](https://onlinejournalismblog.files.wordpress.com/2015/06/nprdashboard_top.jpeg?w=625)
+![](https://www.niemanlab.org/images/NPRDashboard_TOP.jpeg)
 
 ## 
-
-`Until you get into a more rigorous approach, you are essentially left with what we had, which is that everything you did in a winning campaign was a good idea and everything that you did in a losing campaign was a bad idea.` Mike Podhorzer, AFL-CIO
 
 `Why is it that Ted Cruz got a higher engagement rate this week ... I would spend ... about an hour to two hours every night ... just looking at how different posts and different platforms did and trying to test things after that. (Hector Sigala, Bernie Sander's 2016 social media directory, quoted in Kreiss et al, 2017)`
 
@@ -403,8 +441,12 @@ Text explictly references a group identity based on partisanship, religion, race
 
 ## Everyone is an information producer now:
 
-1.  Sharing divisive content is a great way to signal that you are trustworthy/a good team member (e.g., Ahn, Lelkes, Levendusky Study 1)
-2.  People think sharing such content is normative (e.g. Ahn, Lelkes, Levendusky Study 2) ::: {.fragment style="font-size: 75%;"} ➔ **divisive content is useful content** :::
+1.  Sharing divisive content is a great way to signal that you are trustworthy/a good team member (e.g., Ahn, Lelkes, Levendusky Study 1; Jordan and Rand, 2021, Crocket 2017 )
+2.  People think sharing such content is normative (e.g. Ahn, Lelkes, Levendusky Study 2)
+
+::: {.fragment style="font-size: 75%;"}
+➔ **divisive content is useful content**
+:::
 
 ::: notes
 1.  Respondents shown a divisive tweet (critical of the person's worldview or party) or an anodyne tweet followed by a person criticizing the original tweet.
@@ -426,11 +468,11 @@ Text explictly references a group identity based on partisanship, religion, race
 
 ## Divisive content gets more engagement (PRL data)
 
-![](images/clipboard-3994850730.png)
+![](images/clipboard-3994850730.png){width="750"}
 
 ## Identity related content was more likely to garner engagement
 
-![](images/f6.png)
+![](images/f6.png){width="1000"}
 
 -   similar results using Facebook data (people were were likely to share, like and comment on identity content—but not more likely to share it)
 
@@ -438,13 +480,23 @@ Text explictly references a group identity based on partisanship, religion, race
 the paper documents evidence across platforms that this content garners more engagement--often dramatically sow. the red dotes here indicate, for each outlet, the change in likes and retweets a post classified by Bert would get, the green triangles are the coefficients from the hand annotated data. our facebook data also shows a similar pattern with one exception--this stuff was more likely to garner engagement, but less likely to be read. nonetheless, I can think of various reasons why this isn't causal. for instance, Social identity cues are more common in some news stories than others, so the evidence presented above does not rule out alternative explanations.
 :::
 
-## Politicians who use more divisive language are more likely to appear on cable TV
+## TV and Rhetoric Ranking
 
-![](images/clipboard-486887995.png)
+-   For each member of congress, calculated average number of times they appeared on cable news (logged)
+
+-   For each category of speech, calculated their rank order in congress (1=talked most accomplishments/personal attacks etc)
+
+## TV and Rhetoric Ranking
+
+![](images/mediamentionsa.png){width="1000"}
+
+## TV and Rhetoric Ranking
+
+![](images/mediamentionsb.png)
 
 ## 
 
-Is it causal?
+# **Is it causal?**
 
 ## The Upworthy research archive:
 
@@ -469,10 +521,10 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 1.  8000 headlines were manually annotated, then classifier applied to the rest (could not achieve satisfactory performance on politics category )
 2.  \~3200 headline packages (18k total headlines) that included at least one identity category
 
-##  {style="font-size: 75%;"}
+##  {style="font-size: 50%;"}
 
 |   | RACE | RELIGION | GENDER |
-|------------------|------------------|------------------|------------------|
+|----------------------|-----------------|-----------------|-----------------|
 | **Headline group: 51436071220cb8000200077d** |  |  |  |
 | Why Are 193 Countries Joining A 'Feminist Tsunami' On Valentine's Day? | 0 | 0 | 1 |
 | What 1 Billion Women Really Want For Valentine's Day This Year | 0 | 0 | 1 |
@@ -482,9 +534,7 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 | Here's A List Of Insults Too Many Black People Know. Who's Saying Them Might Surprise You. | 1 | 0 | 0 |
 | Here Are Some Insults Too Many Black People Have Heard. Who Said Them Might Surprise You. | 1 | 0 | 0 |
 
-## 
-
-## ![](images/clipboard-1189303682.png)
+## ![](images/clipboard-1189303682.png){height="75%"}
 
 ## Upworthy results
 
@@ -494,55 +544,67 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 
 ## Overview of the talk
 
+::: nonincremental
 1.  Is the Information Environment More Divisive?
-
     -   Maybe, but past approaches fall short.
-
 2.  Why Negativity?
-
     -   Politicians & media crave attention (perhaps more than ever).
-
     -   New tools help track attention.
-
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-
     -   Divisive content cuts through the noise.
+:::
 
-## Research and policy questions:
+::: notes
+admittedly I don't hav
+:::
 
-1.  What, if any, impact has this had on public opinion and political behavior?
+## Some future questions:
 
--   Effects of specific types of speech have been documented in the lab
--   Effects of changes in media access (e.g., cable news, twitter, nationalist radio) have been documented in the real world
--   Can we make externally valid causal claims about specific types of speech in the real world?
+1.  Can we identify different types of speech that have different effects on public opinion and political behavior?
+2.  Can we make externally valid causal claims about specific types of speech in the real world?
 
-2.  How do we think about changing incentives for politicians and media producers to produce such content?
-3.  How do we think about changing incentives for media consumers to consume (and share) such content?
+::: notes
+can we move beyond negative and positive or toxic or not and identify actually polarizing language. there are classifiers out there, but some language although negative may be good for democracy
+
+there are lots of lab studies on the effect of this type of rhetoric or that type of rhetoric on attitudes. i have done some of that work and i think it is useful, ut it is limited in what it can tell us about the real world
+
+there are also lots of studies that look at coarse changes in the media eco system on changes in voting behavior etc etc. we are hoping that by collecting all this daily time series survey data and all this data on rhetoric we might start being able to bridge this stuff. although we don't yet have a clever identification strategy
+:::
+
+## Can we target incentives to share and create this content?
+
+3.  How do we think about changing incentives for politicians and media producers to produce such content?
+4.  How do we think about changing incentives for media consumers to consume (and share) such content?
+
+::: notes
+research is focused on these informaitonal interventions on depolarization
+:::
 
 ## 
 
-\< iframe src="https://onezero.medium.com/the-illinois-artist-behind-social-medias-latest-big-idea-3aa657e47f30"\></iframe>
+<iframe width="100%" height="100%" src="https://www.kqed.org/news/11786043/instagram-will-hide-likes-to-depressurize-the-platform-for-young-people">
 
-## 
+</iframe>
 
-Nothing would make us happier than if people made use of this data.
+## Acknowledments
 
-Sean Westwood Dan Hopkins Sam Wolken Matt Wetzel
+-   Sean Westwood, Dartmouth College
 
-FUNDERS
+    -   Nothing would make us happier than if people made use of this data.
+
+-   Dan Hopkins & Sam Wolken
+
+-   ![](images/clipboard-361536103.png)
 
 ## Overview of the talk
 
+::: nonincremental
 1.  Is the Information Environment More Divisive?
-
     -   Maybe, but past approaches fall short.
-
 2.  Why Negativity?
-
     -   Politicians & media crave attention (perhaps more than ever).
-
     -   New tools help track attention.
-
     -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
-
     -   Divisive content cuts through the noise.
+Slides: https://ylelkes.github.io/divisiveness/slides.html
+:::
