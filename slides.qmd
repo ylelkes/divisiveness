@@ -549,7 +549,7 @@ to answer the causal question we used a dataset compiled by nate matias and kevi
 2.  Why Negativity?
     -   Politicians & media crave attention (perhaps more than ever).
     -   New tools help track attention.
-    -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
+    -   Information overload
     -   Divisive content cuts through the noise.
 :::
 
@@ -600,10 +600,11 @@ research is focused on these informaitonal interventions on depolarization
 ::: nonincremental
 1.  Is the Information Environment More Divisive?
     -   Maybe, but past approaches fall short.
+    -   There is a disproportionate amount of attention given to this content
 2.  Why Negativity?
     -   Politicians & media crave attention (perhaps more than ever).
     -   New tools help track attention.
-    -   We're overwhelmed with content, and seek to consume useful and trustworthy information and signal trustworthiness
+    -   Information overload
     -   Divisive content cuts through the noise.
 3.  Slides: https://ylelkes.github.io/divisiveness/slides.html
 :::
